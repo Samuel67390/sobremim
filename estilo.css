@@ -1,0 +1,107 @@
+/* Estilos do cabeçalho (menu de navegação) */
+header {
+    background-color: #292b2c;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Estilos das seções */
+section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 120px;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos do formulário de contato */
+form {
+    margin-top: 20px;
+    border: 2px solid #ddd; 
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px; 
+    margin-top: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+}
+
+input[type="submit"] {
+    background-color: #292b2c;
+    color: #fff;
+    padding: 15px 25px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para links */
+a {
+    color: #292b2c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Estilo de foco para campos de entrada */
+input:focus, textarea:focus {
+    border: 2px solid #ffcc00; 
+}
+
+
+body {
+    background-color: #979393; 
+    
+}
+
+
